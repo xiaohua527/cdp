@@ -1,0 +1,18 @@
+/* 只需要重写你需要的即可 */
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': red,
+    ),
+  ),
+  // $button: (
+  //     'font-weight':100px,
+  //     'text-color': red,
+  //     'active-color': red,
+  //     'bg-color': yellow,
+  // )
+);
+
+// 如果只是按需导入，则可以忽略以下内容。
+// 如果你想导入所有样式:
+// @use "element-plus/theme-chalk/src/index.scss" as *;
